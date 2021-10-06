@@ -1,0 +1,55 @@
+@font-face {
+  src: url(font/DTM-Mono.otf);
+  font-family: deltarune;
+}
+
+body {
+  background: rgb(0, 0, 0);
+  font-family: deltarune;
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+}
+header {
+  color: #ffffff;
+  background-color: black;
+  font-size: 60px;
+  padding: 3%;
+}
+.image {
+  background-color: #000000;
+}
+
+section {
+  color: #000000;
+  background-color: rgb(0, 0, 0);
+  font-size: 30px;
+  margin: 0px;
+  padding: 0px;
+}
+p {
+  color: #ffffff;
+  background-color: rgb(0, 0, 0);
+  margin: 0px;
+  padding: 3%;
+  padding-bottom: 0;
+}
+button {
+  color: rgb(0, 0, 0);
+  border: 4px solid transparent;
+  border-radius: 4px;
+  font-family: deltarune;
+  font-size: 25px;
+  margin: 25px;
+  width: 400px;
+  height: 100px;
+  letter-spacing: 0px;
+}
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+button:hover {
+  background-color: rgb(173, 173, 173);
+}
